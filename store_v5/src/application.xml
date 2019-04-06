@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+		<!--               -MySQL数据库工厂解耦配置-释放以下注释部分                             -->
+	<bean id="CategoryDao" class="cn.itcast.store.dao.MySQLdaoImpl.MySQLCategoryDaoImpl"/>
+	<bean id="UserDao" class="cn.itcast.store.dao.MySQLdaoImpl.MySQLUserDaoImpl"/>
+	<bean id="ProductDao" class="cn.itcast.store.dao.MySQLdaoImpl.MySQLProductDaoImpl"/>
+	<bean id="OrderDao" class="cn.itcast.store.dao.MySQLdaoImpl.MySQLOrderDaoImpl"/>
+	
+		<!--               -Oracle数据库工厂解耦配置-释放以下注释部分                             -->
+	<!-- <bean id="CategoryDao" class="cn.itcast.store.dao.OracleDaoImpl.OracleCategoryDaoImpl"/>
+	<bean id="UserDao" class="cn.itcast.store.dao.OracleDaoImpl.OracleUserDaoImpl"/>
+	<bean id="ProductDao" class="cn.itcast.store.dao.OracleDaoImpl.OracleProductDaoImpl"/>
+	<bean id="OrderDao" class="cn.itcast.store.dao.OracleDaoImpl.OracleOrderDaoImpl"/>
+	 -->
+		<!--               -SQLServer数据库工厂解耦配置-释放以下注释部分                             -->
+	<!-- <bean id="CategoryDao" class="cn.itcast.store.dao.SQLServerDaoImpl.SQLServerCategoryDaoImpl"/>
+	<bean id="UserDao" class="cn.itcast.store.dao.SQLServerDaoImpl.SQLServerUserDaoImpl"/>
+	<bean id="ProductDao" class="cn.itcast.store.dao.SQLServerDaoImpl.SQLServerProductDaoImpl"/>
+	<bean id="OrderDao" class="cn.itcast.store.dao.SQLServerDaoImpl.SQLServerOrderDaoImpl"/>  -->
+	
+	
+</beans>
